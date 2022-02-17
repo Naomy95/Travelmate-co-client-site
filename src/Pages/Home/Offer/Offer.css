@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swa');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Serif:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+
+
+.product{
+    /* padding: 10px; */
+    height:400px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    margin-top: 20px;
+    /* background-color: whitesmoke; */
+    margin-left: 20px;
+    
+    } 
+    .product:hover{
+        background-color: whitesmoke;
+    }
+    
+    .product img{
+        width:100%;
+        height: 250px;
+    }
+
+
+    .p-text{
+        font-family: 'Dancing Script', cursive;
+    }
+
+
+    .btn-add{
+        background-color: #10221b;
+        width: 100px;
+        height: 30px;
+       
+        color: white;
+        cursor: pointer;
+        
+    }
+    .title-color{
+        color: rgb(39, 39, 39);
+        font-size: large;
+        font-family: 'Roboto Serif', sans-serif;
+    }
+    
+  

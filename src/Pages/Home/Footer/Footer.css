@@ -1,0 +1,49 @@
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+   margin-top: 20px;
+  
+    background-color: #2f6f7c;
+    color: white;
+    
+    
+   
+}
+
+.contact-address{
+   
+  margin:auto;
+  
+  font-family: sans-serif;
+}
+
+
+.social-media a{
+    margin-right: 30px;
+}
+
+@media only screen and (max-width:688px) {
+    .footer-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+.social-media{
+    margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+}
+
+    
+}
+
+@media only screen and (min-width:688px) and (max-width:991px) {
+    .footer-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .social-media{
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+     }
+}

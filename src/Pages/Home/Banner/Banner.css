@@ -1,0 +1,55 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swa');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+.image img{
+    height: 600px;
+    
+    width: 100%;
+    margin: auto;
+}
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    
+        font-family: 'Dancing Script', cursive;
+      font-size: 50px;
+      
+  }
+
+  .img-container p{
+
+  font-family: 'Grandstander', cursive;
+  font-size: 50px;
+  }
+
+@media only screen and (max-width:688px) {
+   .image img{
+       height: 300px;
+   }
+   .centered{
+    font-family: 'Grandstander', cursive;
+    font-size: 20px;
+   }
+  
+}
+
+@media only screen and (min-width:688px) and (max-width:991px) {
+    .image img{
+        height: 500px;
+    }
+    .centered{
+        font-family: 'Grandstander', cursive;
+        font-size: 30px;
+       }
+   
+ }

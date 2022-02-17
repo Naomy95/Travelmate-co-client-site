@@ -1,0 +1,11 @@
+.card-img{
+    width: 100%;
+    height: 60%;
+    margin: auto;
+}
+
+.btn-card{
+    width: 150px;
+    background-color: #10221b;
+    color: white;
+}

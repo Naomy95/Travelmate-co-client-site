@@ -9,14 +9,14 @@ const Details = () => {
     const { detailId } = useParams();
     const id = parseInt(detailId);
     console.log(id)
-    const [departments, setDepartments] = useState([])
+    const [details, setdetails] = useState([])
     useEffect(() => {
         fetch('https://fathomless-waters-16435.herokuapp.com/details')
             .then(res => res.json())
-            .then(data => setDepartments(data));
+            .then(data => setdetails(data));
     }, []);
 
-    const details = departments.find(detail => detail.id === id)
+    const detailsAbout = details.find(detail => detail.id === id)
     
     return (
 
@@ -36,7 +36,7 @@ const Details = () => {
           </div>
         
                <div className='col-lg-8 col-md-12 col-sm-12 mt-2'>
-               <Detail details={details}></Detail> 
+               <Detail details={detailsAbout}></Detail> 
                </div>
                  
         </div>

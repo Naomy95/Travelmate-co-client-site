@@ -13,9 +13,9 @@ export const Header = () => {
         <>
             <Navbar sticky='top'collapseOnSelect expand="lg">
   <Container>
-    <Navbar.Brand style={{color:'white'}} href="#home">Best Care</Navbar.Brand>
+    <Navbar.Brand style={{color:'white'}} href="#home" className='brand-name'>Travelmate</Navbar.Brand>
     <Navbar.Toggle />
-    <Navbar.Collapse className="justify-content-end navbar">
+    <Navbar.Collapse className="justify-content-end navbar " style={{color:'white', paddingRight:'45px'}}>
       <Nav.Link className='navbar-link' as={HashLink} to='/home#home'>Home</Nav.Link>
       <Nav.Link className='navbar-link' as={HashLink} to='/home#offers'>Offers</Nav.Link>
       <Nav.Link className='navbar-link' as={HashLink} to='/details/1'>About Trips</Nav.Link>

@@ -1,33 +1,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
 
-.popular-services{
+.popular-offers{
     display: grid;
 grid-template-columns: repeat(3,1fr);
  
- margin-left: 200px;
-margin-right: 150px;
-margin-top:20px; 
+margin-left: 160px;
+margin-right: 60px;
+margin-top: 50px ;
+
 } 
-.service-text{
-    text-align: center;
-    margin-top:100px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
+
 
 .home-container{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    margin: auto;
-    align-items: center;
+    /* margin: auto; */
+    /* align-items: center; */
 }
 
 
 @media only screen and (max-width:688px) {
-    .popular-services{
+    .popular-offers{
         grid-template-columns: repeat(1,1fr);
         margin: auto;
         
@@ -36,7 +32,7 @@ margin-top:20px;
 }
 
 @media only screen and (min-width:688px) and (max-width:991px) {
-    .popular-services{
+    .popular-offers{
         grid-template-columns: repeat(2,1fr);
         margin:auto;
     }

@@ -12,8 +12,8 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 0px;
-    margin-left: 150px;
-    margin-right: 80px;
+    margin-left: 130px;
+    margin-right: 70px;
     margin-top: 50px ;
     /* border: 1px solid red; */
 }

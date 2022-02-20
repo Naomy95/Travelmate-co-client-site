@@ -4,29 +4,30 @@ import Offer from '../Offer/Offer';
 import './Offers.css'
 
 const Offers = () => {
-    const [services, setSevices] = useState([])
+    const [offers, setOffers] = useState([])
 
     useEffect(() => {
         fetch('https://fathomless-waters-16435.herokuapp.com/offers')
             .then(res => res.json())
             .then(data => {
-                setSevices(data);
+                setOffers(data);
              
             });
     }, []);
+    
  
     return (
         <div id='offers' className='home-container'>
             
-           <div className='services'>
-           <h1 className='headline text-center mt-5'>Our Popular Services</h1>
+           <div className='offers'>
+           <h1 className='headline text-center mt-5'>Provided Offers</h1>
            <hr style={{width:'100px', color:'blue', margin:'auto' }} />
-           <div className='popular-services'>
+           <div className='popular-offers'>
             
             {
-            services.map(service =><Offer 
-                key={service.id}
-                service={service}></Offer>)
+            offers.map(offer =><Offer 
+                key={offer.id}
+                offer={offer}></Offer>)
             }
         </div>
            </div>

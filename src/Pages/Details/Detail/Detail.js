@@ -22,7 +22,7 @@ const Detail =(props)=>{
             .then(res => res.json())
             .then(data => {
                 if (data.insertedId) {
-                    alert('User added Successfully.')
+                    alert('your order has been placed Successfully.')
                     // e.target.reset();
                 }
             })

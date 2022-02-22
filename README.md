@@ -1,3 +1,16 @@
+##Project Name
+Travemate.co
+
+## Project Overview
+-This project is a simple Traveling agency website
+-This is a MERN based project
+-server site is deployed in heroku
+-This is fully responsive
+-Context API,useAuth,private login is used
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

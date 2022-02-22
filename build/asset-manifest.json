@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89ba8104.css",
+    "main.js": "/static/js/main.d09eba9b.js",
+    "static/js/787.9ebdd4f8.chunk.js": "/static/js/787.9ebdd4f8.chunk.js",
+    "static/media/hill1.jpg": "/static/media/hill1.42089ad3968b5fb9d00e.jpg",
+    "static/media/city3.jpg": "/static/media/city3.87070f84d9ec08cf83d7.jpg",
+    "static/media/sea1.jpg": "/static/media/sea1.d20aba43d0cfdeb14133.jpg",
+    "index.html": "/index.html",
+    "main.89ba8104.css.map": "/static/css/main.89ba8104.css.map",
+    "main.d09eba9b.js.map": "/static/js/main.d09eba9b.js.map",
+    "787.9ebdd4f8.chunk.js.map": "/static/js/787.9ebdd4f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89ba8104.css",
+    "static/js/main.d09eba9b.js"
+  ]
+}

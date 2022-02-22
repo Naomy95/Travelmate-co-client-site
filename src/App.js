@@ -2,7 +2,7 @@
 import './App.css';
 import { Route, BrowserRouter as Router,Switch } from 'react-router-dom'
 import Homepage from './Pages/Home/Homepage/Homepage';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import NotFound from './Pages/NotFound/NotFound';
 import Header  from './Pages/Shared/Header/Header';
 import Login from './Pages/Login/Login/Login';
